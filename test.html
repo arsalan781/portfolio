@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="send" name="send" class="" action="contact.php" method="post"> <div class="row"> <div class="col-sm-6"> <div class="form-group"> <label>Name <small></small></label> <input name="name" class="form-control" id="name" type="text" placeholder="Enter Name" required=""> </div> </div> <div class="col-sm-6"> <div class="form-group"> <label>Email <small></small></label> <input name="email" id="email" class="form-control required email" type="email" placeholder="Enter Email"> </div> </div> </div> <div class="row"> <div class="col-sm-6"> <div class="form-group"> <label>Mobile No. <small>*</small></label> <input name="phone" class="form-control required" id="number" type="text" placeholder="Mobile No."> </div> </div> <div class="col-sm-6"> <div class="form-group"> <label>City</label> <input name="city" class="form-control" id="city" type="text" placeholder="City"> </div> </div> </div> <div class="form-group"> <label>Message</label> <textarea name="message" class="form-control required" id="message" rows="5" placeholder="Enter Message"></textarea> </div> <div class="form-group"> <img src="captcha.php"><br> <input name="captcha" type="text"> <input name="form_botcheck" class="form-control" type="hidden" value=""> <button type="submit" value="SUBMIT" class="btn btn-dark btn-theme-colored btn-flat">Send your message</button> </div> </form>
+</body>
+</html>
